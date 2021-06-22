@@ -1,0 +1,18 @@
+# ORG 7000H
+LDA      7501
+MOV 	B,A
+LDA 	7502
+MVI 	C,00
+CMP 	B	
+JC 	down	
+up:SUB 	B	
+INR 	C
+CMP 	B
+JNC 	up
+down:STA 	7503
+MOV 	A,C
+STA 	7504
+RST 1
+
+# ORG 7501H
+# DB 06,26   

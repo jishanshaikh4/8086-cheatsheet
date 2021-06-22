@@ -1,0 +1,13 @@
+# ORG 2000H
+MVI	C,01
+MVI	B,01
+MVI	A,24	
+up:SUB	B	 
+JZ	down
+INR	C
+INR	B	    
+INR	B
+JMP	up
+down:MOV	A,C
+STA	2050
+RST 1
