@@ -1,0 +1,11 @@
+# ORG 7000H
+MVI	D,06	
+LXI	H, F100		    	
+LXI	B, F200
+up:MOV	A,M
+STAX	B
+INX	H
+INX	B
+DCR	D
+JNZ	up
+RST 1
