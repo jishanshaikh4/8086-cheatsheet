@@ -9,6 +9,7 @@
 [![GitHub license](https://shields.io/badge/license-GPL-blue)](https://github.com/jishanshaikh4/8086-cheatsheet/blob/master/LICENSE)
 [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-blueviolet.svg)](https://www.latex-project.org/)
 [![Open source](https://img.shields.io/badge/Open_Source-💕-white.svg)](https://github.com/jishanshaikh4/)
+
 </div>
   
 This cheat sheet contains information about the 8086 microprocessor. Compared to standard textbooks, the main focus is conciseness, to-the-point descriptions, and readability. It is a direct result of scribe notes taken for the subject - Microprocessors (3+1 credits). Guess my grades? :)
